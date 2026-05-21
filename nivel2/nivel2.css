@@ -5,6 +5,7 @@ body {
     height: 100vh;
     margin: 0;
     background: #1a1a1a;
+    overflow: hidden;
     font-family: 'Arial', sans-serif;
 }
 
@@ -77,6 +78,11 @@ body {
     50% {
         text-shadow: -5px -5px 0 #00d4ff, -10px -10px 0 #ff005e;
     }
+}
+
+.nivel2-container {
+    position: relative;
+    overflow: hidden;
 }
 
 .animacao-text3 {
