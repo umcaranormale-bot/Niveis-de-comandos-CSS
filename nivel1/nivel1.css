@@ -4,6 +4,7 @@
   to {background-color: yellow;}
 }
 
+/* The element to apply the animation to */
 .quadrado1 {
   width: 100px;
   height: 100px;
@@ -40,6 +41,11 @@
   animation-direction: alternate-reverse;  
 }
 
+h1 {
+  text-shadow: 2px 2px blue;
+  margin-left: 50%;
+}
+
 @keyframes myAnimation {
   0%   {background-color:red; left:0px; top:0px;}
   25%  {background-color:yellow; left:200px; top:0px;}
@@ -48,7 +54,3 @@
   100% {background-color:red; left:0px; top:0px;}
 }
 
-h1 {
-  text-shadow: 2px 2px blue;
-  margin-left: 50%;
-}
